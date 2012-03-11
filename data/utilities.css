@@ -1,0 +1,109 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a, img, fieldset{
+	border: none;	
+}
+
+a{
+	color:black;
+}
+
+fieldset{
+	margin: 0;
+	padding:0;
+}
+
+ul{
+	list-style:none;
+	list-style-type:none;	
+	margin:0;
+}
+
+h1,h2,h3, h4, p{
+	margin: 0;
+}
+
+h2 {
+	font-size: 22px;	
+}
+
+h3 {
+	font-size: 15px;
+	margin-top: 5px;
+}
+ 
+
+
+.center{
+	margin: 0 auto;
+}
+
+.centerText{
+	text-align:center;
+}
+
+.textRight{
+	text-align:right;	
+}
+
+.clear{
+	clear: both;	
+}
+.left{
+	float:left;	
+}
+
+.right{
+	float:right;	
+}
+
+input{
+	width: 300px;	
+}
+textarea{
+    height: 150px;
+    width: 300px;	
+}
+
+UL    { margin-top: 5px; margin-bottom: 3px; margin-left: 1em; padding-left: 2em; }
+UL LI { margin-top: 5px; margin-bottom: 3px; }
+LI UL { font-size: 12px; margin-left: 1em; padding-left: 1em; } /* Keeps lists from inheriting their parents' font sizes (important because using em's) */
+
+UL.javaSm  > LI,LI.javaSm  { list-style-image: url("../images/icons/16x16/java_jar.png"); font-size: 100%; }
+UL.javaMed > LI,LI.javaMed { list-style-image: url("../images/icons/22x22/java_jar.png"); font-size: 138%; }
+UL.javaLg  > LI,LI.javaLg  { list-style-image: url("../images/icons/32x32/java_jar.png"); font-size: 200%; }
+UL.javaXLg > LI,LI.javaXLg { list-style-image: url("../images/icons/48x48/java_jar.png"); font-size: 300%; }
+
+UL.txtSm  > LI,LI.txtSm  { list-style-image: url("../images/icons/16x16/txt.png"); font-size: 100%; }
+UL.txtMed > LI,LI.txtMed { list-style-image: url("../images/icons/22x22/txt.png"); font-size: 138%; }
+UL.txtLg  > LI,LI.txtLg  { list-style-image: url("../images/icons/32x32/txt.png"); font-size: 200%; }
+UL.txtXLg > LI,LI.txtXLg { list-style-image: url("../images/icons/48x48/txt.png"); font-size: 300%; }
+
+UL.presentationSm  > LI,LI.presentationSm  { list-style-image: url("../images/icons/16x16/kpresenter.png"); font-size: 100%; }
+UL.presentationMed > LI,LI.presentationMed { list-style-image: url("../images/icons/22x22/kpresenter.png"); font-size: 138%; }
+UL.presentationLg  > LI,LI.presentationLg  { list-style-image: url("../images/icons/32x32/kpresenter.png"); font-size: 200%; }
+UL.presentationXLg > LI,LI.presentationXLg { list-style-image: url("../images/icons/48x48/kpresenter.png"); font-size: 300%; }
+
+UL.videoSm  > LI,LI.videoSm  { list-style-image: url("../images/icons/16x16/kaboodle.png"); font-size: 100%; }
+UL.videoMed > LI,LI.videoMed { list-style-image: url("../images/icons/22x22/kaboodle.png"); font-size: 138%; }
+UL.videoLg  > LI,LI.videoLg  { list-style-image: url("../images/icons/32x32/kaboodle.png"); font-size: 200%; }
+UL.videoXLg > LI,LI.videoXLg { list-style-image: url("../images/icons/48x48/kaboodle.png"); font-size: 300%; }
+
+/* SMALL bullet item classes */
+UL.java LI, LI.java  { list-style-image: url("../images/icons/16x16/java_jar.png"); }
+UL.pdf  LI, LI.pdf   { list-style-image: url("../images/icons/16x16/pdf.png"); }
+UL.txt  LI, LI.txt   { list-style-image: url("../images/icons/16x16/text.png"); }
+
+/* MEDIUM bullet item classes */
+UL.med          { font-size: 150%; }
+UL.med LI       { margin-top: 5px; margin-bottom: 5px; padding-left: 10px; }
+UL.med LI.java  { list-style-image: url("../images/icons/22x22/java_jar.png"); }
+UL.med LI.pdf   { list-style-image: url("../images/icons/22x22/pdf.png"); }
+UL.med LI.txt   { list-style-image: url("../images/icons/22x22/text.png"); }
+
+

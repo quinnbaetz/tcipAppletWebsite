@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+    
+    	 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+            
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="utilities.css" rel="stylesheet" type="text/css" />
+        
+        
+        <script language='javascript' type='text/javascript' src='js/jquery-1.4.4.min.js'></script>
+        <script language='javascript' type='text/javascript' src='js/jquery-ui-1.8.7.custom.min.js'></script>
+        <script language='javascript' type='text/javascript' src='js/tcip.js'></script>
+        <script language='javascript' type='text/javascript' src='js/jquery.bgiframe.min.js'></script>
+
+				<title>Wind and Storage, TCIPG Education, University of Illinois</title> 
+    </head> 
+    <body> 
+       <div id='pageWrap' style='width:1024px'> 
+           			<div id="projBar" class='left'> 
+                <div id='barHeader'> 
+                    <h2><a href='../index.html'>TCIPG Education</a></h2> </div> 
+                <div id='projContent'> 
+                    <div> 
+                    <a href='#' id='descriptionLink'> 
+                        <h3> 
+                            Description
+                            <img src='images/blueDownArrow.png' id='descriptionArrow' alt='Expand Description' /> 
+						</h3> 
+                   	</a> 
+                        <div id='descriptionBlock'> 
+                    		Use this applet to explore some issues related to generation, demand, and transmission of electricity. When the applet opens, a coal powered generator and a natural gas generator are available to deliver electricity to three communities, but only the coal generator is producing. The wind farm is not yet connected to the system. As the demand from the communities changes over a 24-hour period, the generators adjust their power production. Fuel costs and carbon dioxide (CO2) emissions per hour for each of the generators is shown.
+ 
+The total peak demand for the communities is set to be 750 MW. The Peak community power demand slider allows you to change the total peak demand. There are also sliders that change the wind farm capacity and the capacity of the transmission line between substation 1 and substation 2. There are buttons for plotting graphs that show costs, emissions, available wind power, branch flow, load and generation.                        </div> 
+                    </div> 
+                    
+                    <div> 
+                    	<a href='#' id='challengeLink'> 
+                        	<h3> 
+                        		Challenges
+                        		<img src='images/blueDownArrow.png' id='challengeArrow' alt='Expand Challenges' /> 
+                        	</h3> 
+                        </a> 
+                        <div id='challengeBlock'> 
+                        	<div id='challengeNav'> 
+                                <span> 
+                                    <a href='#' id='backChallenge' style="visibility:hidden;"><</a>&nbsp;&nbsp
+                                    <script type="text/javascript"> 
+										var currentChoice = 0;
+										var challenges = ["Watch the clock and notice how the demand from the communities changes throughout the day. What do you see?  At what times is the power demand from the residential load lowest? When is it highest?  At what times are the power demands from the commercial load and industrial load lowest and highest?","The power utility wants to provide electricity to its customers at the lowest cost. It is also concerned about climate change and wants to keep its CO2 emissions as low as possible, so it wants to add wind power generation. The site with good wind resources is some distance from the communities so the utility needs transmission lines to connect to it. Click on the switch to close the line between substation 1 and substation 2.  How much power does the wind farm contribute to the communities?  How does this affect the costs and emissions? ","Notice the slider for Wind farm capacity. The wind farm's capacity is 195 MW when the applet opens. This slider sets the maximum power the wind farm can produce under perfect wind conditions. The power utility could increase the wind farm capacity by building more turbines.  What changes when you move this slider?  How does the plot showing system costs change when wind is added to the system?"];
+									</script> 
+									<a href='#' class='challenge selected'>1</a>&nbsp;&nbsp
+											
+											<a href='#' class='challenge'>2</a>&nbsp;&nbsp
+											
+											<a href='#' class='challenge'>3</a>&nbsp;&nbsp
+									                                    <a href='#' id='forwardChallenge'>></a> 
+                                </span> 
+                            </div> 
+                            <div id='currentChallenge'> 
+                              Watch the clock and notice how the demand from the communities changes throughout the day. What do you see?  At what times is the power demand from the residential load lowest? When is it highest?  At what times are the power demands from the commercial load and industrial load lowest and highest?                            </div> 
+                        </div> 
+                    </div> 
+                	<div> 
+                    	<a href='#' id='resourceLink'> 
+                        	<h3> 
+                        		Resources for Students and Teachers
+                        		<img src='images/blueDownArrow.png' id='resourceArrow' alt='Expand Resources' /> 
+                        	</h3> 
+                        </a> 
+                        <div id='resourceBlock'> 
+                        	<h4 id='quickstart'>Quick-Start Guide</h2> 
+		<p> 
+ 
+			Use this quick-start guide to learn about the features of this applet.
+		</p> 
+		
+		<ul> 
+			<li class='pdf'><a href="javascript:openpopup('lessons/TCIPquickstart4.pdf')">Download Guide</a></li> 
+		</ul> 
+                        </div> 
+                    </div> 
+              
+                
+                </div> 
+                 <div id='windmills'></div> 
+            </div> 
+            <div id='expander'> 
+            	<a href='#'> 
+            		<img src='images/collapse.png' width='' height='' alt='Collapse Sidebar' /> 
+               	</a> 
+            </div>            
+            <div id='content'> 
+                <div id='header'> 
+    <div id='navApplets'> 
+        <a href='#' id='navHeader'> 
+          <h2> 
+          	Interactive Activities
+          	<img id='navArrow' src='images/downArrow.png' /> 
+          </h2> 
+        </a> 
+        <div id='navDiv'> 
+                        <ul id='navList'>
+            	                     <li>
+                        <h3><a href='pe.html'>Power and Energy in the Home</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='tou.html'>Electricity and Time of Use Pricing</a></h3>
+                    </li>
+
+                                     <li>
+                        <h3><a href='pg.html'>The Power Grid</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='pee.html'>Power Economics and Emissions</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='ws.html'>Wind and Storage</a></h3>
+
+                    </li>
+                            </ul>
+        </div> 
+    </div> 
+    <div id='pageTitle'> 
+        <h1>                	<a href="pee.html"><</a> 
+                Wind and Storage</h1> 
+    </div> 
+	<div class='right' id='rightHeader'> 
+        <div id="iLogo" class='right'> 
+            <a href='http://www.illinois.edu' ><img alt='University of Illinois at Urbana-Champaign logo.' src="images/imark.gif"/></a> 
+        </div> 
+    </div> 
+</div>                
+                <div id='applet'> 
+                	<script src="js/deployJava.js"></script><script> 
+                        var attributes = {archive:'applets/jars/jfreechart-1.0.10.jar,applets/jars/jcommon-1.0.13.jar,applets/jars/jama-1.0.2.jar,applets/jars/lessons.jar,applets/jars/psdisplay.jar,applets/jars/applet_images.jar,applets/jars/anl_lpsolver.jar,applets/jars/zebLP.jar',
+                            code: 'edu.uiuc.TCIP.education.lessons.windAndStorage.WindAndStorageApplet', width:800, height:700						};
+                        var parameters = {};
+                        var version='1.6';
+                        deployJava.runApplet(attributes,parameters,version);
+                    </script>    
+              	</div> 
+            </div> 
+            
+            <div id="footerBorder"></div> 
+            <div class='clear'></div> 
+		</div>     
+     <script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+var pageTrackerTCIP = _gat._getTracker("UA-3404772-1");
+pageTrackerTCIP._initData();
+pageTrackerTCIP._trackPageview();
+</script> 
+   
+    </body> 
+</html>

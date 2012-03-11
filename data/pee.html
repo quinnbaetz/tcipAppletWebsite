@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+    
+    	 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+            
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="utilities.css" rel="stylesheet" type="text/css" />
+        
+        
+        <script language='javascript' type='text/javascript' src='js/jquery-1.4.4.min.js'></script>
+        <script language='javascript' type='text/javascript' src='js/jquery-ui-1.8.7.custom.min.js'></script>
+        <script language='javascript' type='text/javascript' src='js/tcip.js'></script>
+        <script language='javascript' type='text/javascript' src='js/jquery.bgiframe.min.js'></script>
+
+				<title>Power Economics and Emissions, TCIPG Education, University of Illinois</title> 
+    </head> 
+    <body> 
+       <div id='pageWrap' style='width:1024px'> 
+           			<div id="projBar" class='left'> 
+                <div id='barHeader'> 
+                    <h2><a href='../index.html'>TCIPG Education</a></h2> </div> 
+                <div id='projContent'> 
+                    <div> 
+                    <a href='#' id='descriptionLink'> 
+                        <h3> 
+                            Description
+                            <img src='images/blueDownArrow.png' id='descriptionArrow' alt='Expand Description' /> 
+						</h3> 
+                   	</a> 
+                        <div id='descriptionBlock'> 
+                    		This applet simulates a system that is owned by a power utility company. The company provides power to three communities. It owns and operates generators (which can be turned on and off in the exercise) and the transmission lines that serve the communties. On this system, it is usually possible for the utility company to supply all of the load demand using the local generators.
+ 
+However, there could be many reasons why this is not possible or most profitable, and then electricity is purchased from or sold to the external system.                        </div> 
+                    </div> 
+                    
+                    <div> 
+                    	<a href='#' id='challengeLink'> 
+                        	<h3> 
+                        		Challenges
+                        		<img src='images/blueDownArrow.png' id='challengeArrow' alt='Expand Challenges' /> 
+                        	</h3> 
+                        </a> 
+                        <div id='challengeBlock'> 
+                        	<div id='challengeNav'> 
+                                <span> 
+                                    <a href='#' id='backChallenge' style="visibility:hidden;"><</a>&nbsp;&nbsp
+                                    <script type="text/javascript"> 
+										var currentChoice = 0;
+										var challenges = ["Press the Reset System button. Currently, the system is spending $54,000 per hour to purchase energy from external systems. Can you find a way to set the system so that the power grid does not have to rely on external systems to meet the needs of its customers?","Without changing the demand from the communities, maximize the provider's profits. How large is the provider's profit? What did you do to maximize the profits?","Without changing the demand from the communities, maximize the provider's profits. How large is the provider's profit? What did you do to maximize the profits?","Press the Reset Time button. Keep the power demand from Residenceburg at 1700 MW (megawatts) and from Commerceton and Industryville at 850 MW. Adjust the system so that the utility is making a profit and the CO2 emissions are lower than 1000 metric tons per hour."];
+									</script> 
+									<a href='#' class='challenge selected'>1</a>&nbsp;&nbsp
+											
+											<a href='#' class='challenge'>2</a>&nbsp;&nbsp
+											
+											<a href='#' class='challenge'>3</a>&nbsp;&nbsp
+											
+											<a href='#' class='challenge'>4</a>&nbsp;&nbsp
+									                                    <a href='#' id='forwardChallenge'>></a> 
+                                </span> 
+                            </div> 
+                            <div id='currentChallenge'> 
+                              Press the Reset System button. Currently, the system is spending $54,000 per hour to purchase energy from external systems. Can you find a way to set the system so that the power grid does not have to rely on external systems to meet the needs of its customers?                            </div> 
+                        </div> 
+                    </div> 
+                	<div> 
+                    	<a href='#' id='resourceLink'> 
+                        	<h3> 
+                        		Resources for Students and Teachers
+                        		<img src='images/blueDownArrow.png' id='resourceArrow' alt='Expand Resources' /> 
+                        	</h3> 
+                        </a> 
+                        <div id='resourceBlock'> 
+                        	<h4 id='quickstart'>Quick-Start Guide</h4> 
+		<p> 
+ 
+			Use this quick-start guide to learn about the features of this applet.
+		</p> 
+		
+		<ul> 
+			<li class='pdf'><a href="javascript:openpopup('lessons/TCIPquickstart3.pdf')">Download Guide</a></li> 
+		</ul><br /> 
+ 
+		
+		<h4 id='lessons'>Lessons</h4> 
+		<p> 
+			Lessons have been created to help you use this applet in your classroom.
+		</p> 
+ 
+		
+		<ul> 
+			<li class='pdf'><a href="javascript:openpopup('lessons/PowerEconomics&Emissions.pdf')">Download Lessons</a></li> 
+		</ul><br /> 
+ 
+		
+		<h4 id='studentpages'>Student Pages</h4> 
+		<p> 
+			A Student Notebook has been developed to accompany the lessons.
+		</p> 
+		
+		<ul> 
+ 
+ 
+			<li class='pdf'><a href="javascript:openpopup('lessons/PE&EStudentNotebook.pdf')">Download Student Pages</a></li> 
+		</ul><br /> 
+ 
+		
+		<h4 id='powergridgame'>Power Grid Game</h4> 
+		<p> 
+			A 2-player game has been developed for this applet. You and a partner will use this applet to play a game in which
+			you will compete to see who is better at controlling unexpected situations that may occur.
+		</p> 
+		
+		<ul> 
+			<li class='none'><a href="javascript:openpopup('http://tcip.mste.illinois.edu/applet3-game','game_popup')">Play Game</a></li> 
+ 
+			<li class='pdf'><a href="javascript:openpopup('lessons/power grid game.pdf')">Download Power Grid Game</a></li> 
+		</ul>                        </div> 
+                    </div> 
+              
+                
+                </div> 
+                 <div id='windmills'></div> 
+            </div> 
+            <div id='expander'> 
+            	<a href='#'> 
+            		<img src='images/collapse.png' width='' height='' alt='Collapse Sidebar' /> 
+               	</a> 
+            </div>            
+            <div id='content'> 
+                <div id='header'> 
+    <div id='navApplets'> 
+        <a href='#' id='navHeader'> 
+          <h2> 
+          	Interactive Activities
+          	<img id='navArrow' src='images/downArrow.png' /> 
+          </h2> 
+        </a> 
+        <div id='navDiv'> 
+                      <ul id='navList'>
+            	                     <li>
+                        <h3><a href='pe.html'>Power and Energy in the Home</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='tou.html'>Electricity and Time of Use Pricing</a></h3>
+                    </li>
+
+                                     <li>
+                        <h3><a href='pg.html'>The Power Grid</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='pee.html'>Power Economics and Emissions</a></h3>
+                    </li>
+                                     <li>
+                        <h3><a href='ws.html'>Wind and Storage</a></h3>
+
+                    </li>
+                            </ul>
+        </div> 
+    </div> 
+    <div id='pageTitle'> 
+        <h1>                	<a href="pg.html"><</a> 
+                Power Economics and Emissions                	<a href="ws.html">></a> 
+                </h1> 
+    </div> 
+	<div class='right' id='rightHeader'> 
+        <div id="iLogo" class='right'> 
+            <a href='http://www.illinois.edu' ><img alt='University of Illinois at Urbana-Champaign logo.' src="images/imark.gif"/></a> 
+        </div> 
+    </div> 
+</div>                
+                <div id='applet'> 
+                	<script src="js/deployJava.js"></script><script> 
+                        var attributes = {archive:'applets/jars/jfreechart-1.0.10.jar,applets/jars/jcommon-1.0.13.jar,applets/jars/jama-1.0.2.jar,applets/jars/lessons.jar,applets/jars/psdisplay.jar,applets/jars/applet_images.jar,applets/jars/anl_lpsolver.jar,applets/jars/zebLP.jar',
+                            code: 'edu.uiuc.TCIP.education.lessons.costsAndEmissions.CostsAndEmissionsPowerGridApplet', width:800, height:600						};
+                        var parameters = {};
+                        var version='1.6';
+                        deployJava.runApplet(attributes,parameters,version);
+                    </script>    
+              	</div> 
+            </div> 
+            
+            <div id="footerBorder"></div> 
+            <div class='clear'></div> 
+		</div>     
+     <script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+var pageTrackerTCIP = _gat._getTracker("UA-3404772-1");
+pageTrackerTCIP._initData();
+pageTrackerTCIP._trackPageview();
+</script> 
+   
+    </body> 
+</html>

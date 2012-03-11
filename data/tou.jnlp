@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+	<information>
+		<title>Time of Use Applet</title>
+		<vendor>TCIP</vendor>
+	</information>
+	<resources>
+		<!-- Application Resources -->
+		<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se" />
+		<jar href="packs/lessons.jar"/>
+		<jar href="packs/anl_lpsolver.jar"/>
+		<jar href="packs/jama-1.0.2.jar"/>
+		<jar href="packs/jcommon-1.0.13.jar"/>
+		<jar href="packs/jfreechart-1.0.10.jar"/>
+		<jar href="packs/zebLP.jar"/>
+		<jar href="packs/psdisplay.jar"/>
+		<jar href="packs/applet_images.jar"/>
+		<property name="jnlp.packEnabled" value="true"/>
+	</resources>
+	<applet-desc 
+		name="Time of Use Applet"
+		main-class="edu.uiuc.TCIP.education.lessons.timeOfUsePricing.TimeOfUsePandEHomeKioskApplet"
+		width="1010"
+		height="600">
+	</applet-desc>
+	<update check="always" policy="always"/>
+</jnlp>

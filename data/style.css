@@ -1,0 +1,263 @@
+body{
+	background: url('images/texture1.png');
+}
+
+div#pageWrap{
+	background-color: #FFF;
+	width: 812px;	
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#projBar{
+	width: 206px;
+	float: left;
+	color: #203f7b;
+}
+#projBar a{
+	color: #203f7b;
+	text-decoration:none;
+}
+	#projBar div#barHeader{
+		background: #003092;
+		width: 100%;
+		height: 35px;
+	}
+		#projBar h2{
+			margin: 0 auto;
+			padding-left: 18px;
+		}	
+		
+		#projBar h2 a{
+			color: white;	
+		}
+	#projBar #projContent{
+		background: #eef7fd url('images/gradient3.png') repeat-x;
+		/*height:530px; /*630 for fitting wind applet */
+		 min-height: 533px;
+		 padding: 5px;
+		 font-size: 13px;
+	}
+		#projBar #projContent div div{
+			padding: 5px 10px;	
+		}
+		
+		#challengeNav{
+			text-align: center;	
+		}
+			#challengeNav .selected{
+				font-weight: bold;
+				color: #FFF;
+			}
+			
+	
+		#resourceBlock a{
+			color: #000;
+			text-decoration:underline;
+		}
+		
+	#windmills{
+		background: #97ccf5 url('images/windmills.png') no-repeat;
+		width: 100%;
+		height: 72px;
+	}
+	
+		#windmills div{
+			padding-top: 50px;			
+		}
+			#windmills a{
+				color: white;
+				padding-left: 90px;
+				margin-top: 50px;
+				size: 12px;
+			}
+	#expander{
+		position: absolute;
+		margin-left: 194px;
+		margin-top: 300px;
+	}
+div#content{
+	/*height: 637px; /*737 for fitting wind applet */
+	background-color: white;
+	margin: 0 auto;
+}
+
+div#header{
+	background-image: url('images/texture1.png');
+	height: 35px;
+}
+	div#navApplets{
+		float: left;
+		width: 286px;
+	}
+		#navHeader{
+			/*background-image: url('images/texture1.png');*/
+			height: 35px;
+			display:block;
+			text-decoration:none;
+			padding-left: 25px;
+			padding-top: 1px;
+		}
+			#navHeader h2{
+				float: left;	
+				color: black;
+			}
+		div#navDiv{
+			
+			position:absolute;
+			float: left;	
+			display:block; 
+            background:blue;
+            z-index:1000;
+			padding: 0px;
+		}
+			ul#navList{
+				background-image: url('images/texture3.png');
+				margin: 0;
+				padding: 0;	
+			}
+			ul#navList li:first-child{
+				border-top: 0px;	
+				height: 30px;
+			}
+			ul#navList li{
+				display: block;
+				height: 35px;
+				margin: 0px;
+				padding: 5px;
+				border-top: 1px solid black;
+			}
+				ul#navList h3{
+					text-align: center;		
+					padding-top: 5px;
+				}
+					ul#navList a{
+						color:black;
+						text-decoration:none;
+						padding: 2px 5px;
+						margin: 1px;
+					}
+					
+					ul#navList a:hover{
+						border:1px solid black;
+						background: #ffaf2f url('images/selectedGradient.png') repeat-x;	
+						text-decoration:none;
+						margin: 0px;
+					}
+	
+	div#pageTitle{
+		text-align: center;
+		float: left;
+    	width: 432px;
+	}	
+	div#header h1, div#header h1 a{
+		color: white;
+		font-size: 20px;	
+		text-decoration: none;
+		padding-top: 4px;
+	}
+	
+	#rightHeader a{
+		position:absolute;
+		height:35px;
+	}
+		#iLogo{
+			padding-right: 40px;
+			height: 35px;
+		}
+
+#mainBox{
+	float:left;
+	width: 512px;
+}
+
+div#mainContent{
+	background: url('images/gradient1.png') #FFF repeat-x;
+	float:left;
+	width: 512px;
+	min-height: 583px;
+	overflow: hidden;
+}
+	
+		div#mainContent>p{
+				padding: 10px 38px;
+				font-size:15px;
+				line-height:1.3;
+		}
+			ul#content-list{
+				font-family: Arial,Helvetica,sans-serif;
+			}
+		
+		h1.sideGradient{
+			margin-bottom: 0;
+			font-size: 1.5em;
+		}
+		h2.sideGradient{
+			margin-bottom: 12px;
+			font-size: 1.25em; /*20px;*/
+		}
+		.sideGradient{
+			color: #101458;
+			padding-left: 20px;
+			background: url('images/gradient2.png') #FFF repeat-y;
+		}
+		
+		ul#announcements{
+			margin-left: 6px;			
+		}
+			ul#announcements li{
+				margin-bottom: 10px;	
+			}
+		ul#resources{
+			font-size: 15px;	
+			margin-left: 6px;	
+			margin-bottom: 10px;
+		}
+			ul#resources a{
+				color: black;
+			}
+
+DIV#mainContent UL.bulleted
+{
+	list-style: disc outside none;
+	margin-left: 25px;
+}
+
+div#contact{
+	width: 512px;
+	text-align:center;
+	float:left;
+	font-size: 12px;
+}
+	div#contact a{
+		color: black;
+	}
+	
+
+div#applet{
+	text-align: center;	
+	/* 202px for without shim */
+	margin-top: 0px;
+	z-index: 0;
+}
+	div#applet applet{
+		margin: 0px;
+		z-index: 0;
+	}
+
+div#rightBar{
+	background: #FFF url('images/fadeWindills.png') no-repeat right bottom;
+	float: right;
+	width: 300px;
+	min-height: 600px;
+}
+	/*div#rightTop{
+		
+	}
+
+	div#rightBottom{
+		background-image: #FFF url('images/texture1.png') no-repeat;
+		height: 72px;
+	}*/
+
+.centered { margin-left: auto; margin-right: auto; }
